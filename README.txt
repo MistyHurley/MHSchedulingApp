@@ -11,7 +11,6 @@ The goal of this exercise was to demonstrate competencies in advanced Java progr
 
 Author information:
 Misty Hurley
-mhurl10@wgu.edu
 Application version 1.2
 2021-05-12
 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: AliceBlue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Reports">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="120.0" style="-fx-background-color: DodgerBlue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="238.0" prefWidth="120.0">
+               <children>
+                  <Button fx:id="homeBtn" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Home" textFill="ALICEBLUE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="1.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="customersBtn" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Customers" textFill="ALICEBLUE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="1.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="appointmentsBtn" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" style="-fx-background-color: transparent;" text="Appointments" textFill="ALICEBLUE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="1.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="reportsBtn" mnemonicParsing="false" prefHeight="44.0" prefWidth="122.0" style="-fx-background-color: rgba(0,0,255,0.1);" text="Reports" textFill="ALICEBLUE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="1.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="logoutBtn" mnemonicParsing="false" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: transparent;" text="Logout" textFill="ALICEBLUE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="1.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="120.0" prefHeight="400.0" prefWidth="480.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onActionAppointmentCountByTypeAndMonth" text="Appointment Count by Type and Month" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+            <Button layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#onActionScheduleForContact" text="Schedule for Contact" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="45.0" />
+            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#onActionCustomersByCountry" text="Customers by Country" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="80.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
